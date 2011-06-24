@@ -1,0 +1,439 @@
+body {
+	background-color: #FFFFFF;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img.bg {
+        min-height: 100%;
+        min-width: 800px;
+        width: 100%;
+        height: auto;
+        position: fixed;
+	top: 0;
+	right: 0;
+}
+
+@media screen and (max-width: 800px) {
+        img.bg {
+                left: 50%;
+                margin-left: -400px;
+        }
+}
+
+img.headbg {
+        min-height: 500px;
+        min-width: auto;
+        width: auto;
+        height: 100%;
+        position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 485px) {
+        img.headbg {
+                left: 50%;
+                margin-left: -242px;
+        }
+}
+
+img.treffendate {
+	position:fixed;
+	right:3%;
+	bottom:40%;
+}
+
+img.cjblogobanner {
+	position:relative;
+	padding-right:10px;
+	padding-top:20px;
+}
+
+img.nav {
+	position:relative;
+	margin-top:38px;
+	margin-right:5px;
+}
+
+img.logo {
+	position:relative;
+	padding-right:5px;
+	padding-top:20px;
+}
+
+img.anmelden_stern {
+	position: absolute;
+	padding-top:7px;
+}
+
+img.content {
+	position: fixed;
+	bottom:0;
+	right:7%;
+}
+
+img.superzwei {
+	min-height: 315px;
+	min-width: 518px;
+        height: auto;
+	width: 50%;
+	position: fixed;
+	bottom:0;
+	right:0;
+	z-index:0;
+}
+
+img.weg {
+	min-height: 195px;
+	min-width: 404px;
+        height: auto;
+	width: 40%;
+	position: fixed;
+	bottom:120px;
+	right:5%;
+	z-index:0;
+}
+
+img.lounge {
+	min-height: 350px;
+	min-width: 498px;
+	height: auto;
+	width: 50%;
+	position: fixed;
+	bottom:0;
+	right:0;
+	z-index:0;
+}
+
+img.gebetsgarten {
+	min-height: 307px;
+	min-width: 400px;
+	height: 50%;
+	width: auto;
+	position: fixed;
+	bottom:0;
+	right:0;
+}
+
+img.godspeaks_main {
+	position:fixed;
+	right:0;
+	bottom:0;
+}
+
+img.impressum {
+	position:fixed;
+	right:0;
+	bottom:0;
+}
+
+#content {
+	position: fixed;
+	left:55%;
+	right:3%;
+	top:15%;
+	padding:10px;
+	background: transparent url(../images/contentbg.png);
+	border: 2px #FF8D0A solid;
+	font-family:Arial;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	z-index: 20;
+}
+#contentmax {
+	position: fixed;
+	left:50%;
+	right:2%;
+	top:15%;
+	z-index:1;
+	padding:10px;
+	background: transparent url(../images/contentbg.png);
+	border: 2px #FF8D0A solid;
+	font-family:Arial;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+div.corner {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: url(../images/contentbgcircle.png);
+	overflow: hidden;
+}
+
+div.top_left {
+	top: -2px;
+	left: -2px;
+	background-position: 0px 0px;
+}
+
+div.top_right {
+	top: -2px;
+	right: -2px;
+	background-position: 16px 0px;
+}
+
+div.bottom_left {
+	bottom: -2px;
+	left: -2px;
+	background-position: 0px 16px;
+}
+
+div.bottom_right {
+	bottom: -2px;
+	right: -2px;
+	background-position: 16px 16px;
+}
+
+p.programm {
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-bottom:7px;
+}
+
+p.seminar {
+	padding:4px 10px 6px 10px;
+	background-color:white;
+	margin:14px 6px 0 6px;
+}
+
+p.impressum {
+	padding-bottom:5px;
+	font-size:0.9em;
+}
+
+span.title_programm {
+	position: absolute;
+	color:#FF8D0A;
+	background-color:#319ABD;
+	font-weight:bold;
+	float:left;
+	-webkit-transform: rotate(-90deg); -moz-transform:rotate(-90deg);
+	left:-20px;
+	margin-top:30px;
+	letter-spacing:0.1em;
+}
+
+span.title_montag {
+	position: absolute;
+	color:#FF8D0A;
+	background-color:#319ABD;
+	font-weight:bold;
+	float:left;
+	-webkit-transform: rotate(-90deg); -moz-transform:rotate(-90deg);
+	left:-16px;
+	margin-top:23px;
+	letter-spacing:0.1em;
+}
+
+span.title_seminar {
+	color:white;
+	font-weight:bold;
+	background-color:#236e87;
+}
+
+span.thema {
+	font-weight:bold;
+	color:#236e87;
+}
+
+#flipthepage {
+	position: fixed;
+	left: 0; top: 0;
+	float: left;
+}
+
+#flipthepage img {
+	width: 72px; height: 72px;
+	z-index: 99;
+	position: fixed;
+	left: 0; top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+#flipthepage .msg_block {
+	width: 70px; height: 72px;
+	overflow: hidden;
+	position: fixed;
+	left: 0; top: 0;
+	background: url(../images/anmelden.png) no-repeat left top;
+}
+
+#flipthemainpage img {
+	width: 144px; height: 144px;
+	z-index: 99;
+	position: fixed;
+	left: 0; top: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+#flipthemainpage .msg_block {
+	width: 139px; height: 144px;
+	overflow: hidden;
+	position: fixed;
+	left: 0; top: 0;
+	background: url(../images/anmelden_main.png) no-repeat left top;
+}
+
+#slides {
+	position:fixed;
+	bottom:0;
+	right:5%;
+}
+
+.slides_container {
+	width:475px;
+	height:250px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+	z-index:0;
+}
+
+a.intern:link {
+	color: #319ABD;
+	text-decoration: none;
+	border-bottom: 1.5px dashed #319ABD;
+	display: inline;
+}
+
+a.intern:visited {
+	color: #319ABD;
+	text-decoration: none;
+	border-bottom: 1.5px dashed #319ABD;
+	display: inline;
+}
+
+a.intern:hover {
+	color: #319ABD;
+	text-decoration: none;
+	border-bottom: 1.5px dashed #319ABD;
+	border-top: 1.5px dashed #319ABD;
+	background-color: #FFA53B;
+}
+
+a.intern:active {
+	color: white;
+}
+
+div.corner_topl {
+	position: fixed;
+	left:3%;
+	top:15%;
+	z-index:4;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: url(../images/contentbgcircle.png);
+	overflow: hidden;
+}
+
+div.corner_top2 {
+	position: fixed;
+	left:3%;
+	top:15%;
+	z-index:4;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: url(../images/formcircle_t_l2.png);
+	overflow: hidden;
+}
+div.corner_bottoml2 {
+	position: fixed;
+	left:3%;
+	bottom:3%;
+	z-index:4;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: url(../images/formcircle_b_l2.png);
+	overflow: hidden;
+}
+
+div.corner_bottoml {
+	position: fixed;
+	left:3%;
+	bottom:3%;
+	z-index:4;
+	width: 16px;
+	height: 16px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: scroll;
+	background-image: url(../images/formcircle_b_l.png);
+	overflow: hidden;
+}
+
+#bigbox {
+	position: fixed;
+	left:3%;
+	right:3%;
+	top:15%;
+	height:auto;
+	bottom:3%;
+	z-index:1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding:10px;
+	background: transparent url(../images/contentbg.png);
+	border: 2px #FF8D0A solid;
+	font-family:Arial;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#boxes #dialog {
+  background:url(http://pfingsttreffen.cjb.de/images/hinweis.png) no-repeat 0 0 transparent; 
+  width:326px; 
+  height:244px;
+  padding:40px 0 20px 25px;
+  font-size: 14px;
+}
+
+#boxes .window {
+  position:fixed;
+  right:10%;
+  top:100px;
+  width:440px;
+  height:240px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ul.inhalt {
+	display:none;
+}
+
+img.close {
+	display:none;
+	padding-right:5px;
+	margin-top: -10px;
+}
+
+img.open {
+	padding-right:5px;
+	margin-top: -10px;
+}

@@ -1,0 +1,89 @@
+div.count {
+	width:524px; position:fixed;
+	right:1.5%;
+	bottom:22%;
+}
+
+#timer {
+	position:relative;
+}
+
+.timer_numbers {
+	font-size:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color:#ffffff;
+}
+
+#timer_days {
+	background:url(../images/1countdown-f.png) no-repeat;
+	float:left;
+	width:119px;
+	height:80px;
+	padding:5px 2px 0 9px;
+	letter-spacing:30px;
+}
+
+#timer_hours {
+	background:url(../images/1countdown-f.png) no-repeat;
+	float:left;
+	width:119px;
+	height:80px;
+	padding:5px 2px 0 9px;
+	letter-spacing:30px;
+}
+
+#timer_mins {
+	background:url(../images/1countdown-f.png) no-repeat;
+	float:left;
+	width:119px;
+	height:80px;
+	padding:5px 2px 0 9px;
+	letter-spacing:30px;
+}
+
+#timer_seconds {
+	background:url(../images/2countdown-f.png) no-repeat;
+	float:left;
+	width:122px;
+	height:80px;
+	padding:5px 2px 0 9px;
+	letter-spacing:30px;
+}
+
+/* timer labels */
+.timer_labels {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#303030;	
+}
+
+#timer_labels {
+}
+
+#timer_days_label {
+	width:119px;
+	float:left;
+	margin-top: -15px;
+}
+
+#timer_hours_label {
+	width:129px;
+	float:left;	
+	margin-top: -15px;
+}
+
+#timer_mins_label {
+	width:139px;	
+	float:left;	
+	margin-top: -15px;
+}
+
+#timer_seconds_label {
+	width:130px;
+	float:left;	
+	margin-top: -15px;
+}
