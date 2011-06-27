@@ -1,5 +1,5 @@
 div.count {
-	width:524px; position:fixed;
+	width:584px; position:fixed;
 	right:1.5%;
 	bottom:22%;
 }
@@ -17,9 +17,9 @@ div.count {
 }
 
 #timer_days {
-	background:url(../images/1countdown-f.png) no-repeat;
+	background:url(../images/3countdown-f.png) no-repeat;
 	float:left;
-	width:119px;
+	width:179px;
 	height:80px;
 	padding:5px 2px 0 9px;
 	letter-spacing:30px;
@@ -65,25 +65,25 @@ div.count {
 }
 
 #timer_days_label {
-	width:119px;
+	width:165px;
 	float:left;
 	margin-top: -15px;
 }
 
 #timer_hours_label {
-	width:129px;
+	width:159px;
 	float:left;	
 	margin-top: -15px;
 }
 
 #timer_mins_label {
-	width:139px;	
+	width:119px;	
 	float:left;	
 	margin-top: -15px;
 }
 
 #timer_seconds_label {
-	width:130px;
+	width:120px;
 	float:left;	
 	margin-top: -15px;
 }
