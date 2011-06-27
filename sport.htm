@@ -25,30 +25,6 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 <script type="text/javascript" src="css/slides.min.jquery.js"></script>
 <script type="text/javascript">
-	$(document).ready(function(){
-
-	//Page Flip on hover
-		$("#flipthepage").hover(function() {
-			$("#flipthepage img , .msg_block").stop()
-				.animate({
-					width: '319px',
-					height: '307px'
-				}, 500);
-			} , function() {
-			$("#flipthepage img").stop()
-				.animate({
-					width: '72px',
-					height: '72px'
-				}, 220);
-			$(".msg_block").stop()
-				.animate({
-					width: '70px',
-					height: '72px'
-				}, 200);
-		});
-	});
-</script>
-<script type="text/javascript">
 		$(function(){
 			$('#slides').slides({
 				effect: 'fade',
@@ -65,7 +41,6 @@
 <body>
 <img class="bg" src="images/waterbg.jpg" />
 <img class="headbg" src="images/horchhead_main_content.gif" alt="Horch amol!" />
-<a href="anmeldung.php"><div id="flipthepage"><img src="images/page_flip.png" border="0" alt="Anmeldung" /><div class="msg_block"></div></div></a>
 <img class="nav" src="images/sport_nav_active.png" align="right" border="0" alt="Sport- und Kreativangebote" />
 <a href="konzert.htm"><img class="nav" src="images/konzert_nav.png" align="right" border="0" onmouseover="this.src = 'images/konzert_nav_active.png';" onmouseout="this.src = 'images/konzert_nav.png';" alt="Konzert" /></a>
 <a href="wort.htm"><img class="nav" src="images/worttransport_nav.png" align="right" border="0" onmouseover="this.src = 'images/worttransport_nav_active.png';" onmouseout="this.src = 'images/worttransport_nav.png';" alt="Worttransport" /></a>
